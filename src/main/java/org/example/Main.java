@@ -5,6 +5,8 @@ import com.google.gson.Gson;
 public class Main {
     public static void main(String[] args) {
         Person original = new Person("Alex", "Sychov", 20);
+        System.out.println("Original Person: " + original);
+        // Access fields using getters
         String personsLastName = original.getLast_name();
         String personsFirstName = original.getFirst_name();
         int personsAge = original.getAge();
