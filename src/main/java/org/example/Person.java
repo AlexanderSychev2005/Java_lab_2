@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Objects;
 
 public class Person {
-    @SerializedName("last_name")
+    @SerializedName("last_name1")
     private final String last_name; // the value is available only inside the class and cannot be changed, immutable
     private final String first_name;
     private final int age;
